@@ -48,7 +48,6 @@ namespace PersonelKayıtSistemi
             this.Txtid = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.BtnGrafikler = new System.Windows.Forms.Button();
             this.Btnistatistik = new System.Windows.Forms.Button();
             this.BtnTemizle = new System.Windows.Forms.Button();
@@ -110,7 +109,7 @@ namespace PersonelKayıtSistemi
             // 
             // MskMaas
             // 
-            this.MskMaas.Location = new System.Drawing.Point(140, 212);
+            this.MskMaas.Location = new System.Drawing.Point(140, 215);
             this.MskMaas.Mask = "0000";
             this.MskMaas.Name = "MskMaas";
             this.MskMaas.Size = new System.Drawing.Size(162, 31);
@@ -120,7 +119,7 @@ namespace PersonelKayıtSistemi
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(83, 215);
+            this.label7.Location = new System.Drawing.Point(83, 218);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(57, 23);
             this.label7.TabIndex = 14;
@@ -129,7 +128,7 @@ namespace PersonelKayıtSistemi
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(67, 291);
+            this.label6.Location = new System.Drawing.Point(67, 294);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(70, 23);
             this.label6.TabIndex = 13;
@@ -138,7 +137,7 @@ namespace PersonelKayıtSistemi
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(61, 256);
+            this.label5.Location = new System.Drawing.Point(61, 259);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(70, 23);
             this.label5.TabIndex = 12;
@@ -147,7 +146,7 @@ namespace PersonelKayıtSistemi
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(230, 255);
+            this.radioButton2.Location = new System.Drawing.Point(230, 258);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(72, 27);
             this.radioButton2.TabIndex = 11;
@@ -159,7 +158,7 @@ namespace PersonelKayıtSistemi
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(140, 255);
+            this.radioButton1.Location = new System.Drawing.Point(140, 258);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(55, 27);
             this.radioButton1.TabIndex = 10;
@@ -171,14 +170,14 @@ namespace PersonelKayıtSistemi
             // CmbSehir
             // 
             this.CmbSehir.FormattingEnabled = true;
-            this.CmbSehir.Location = new System.Drawing.Point(140, 166);
+            this.CmbSehir.Location = new System.Drawing.Point(140, 169);
             this.CmbSehir.Name = "CmbSehir";
             this.CmbSehir.Size = new System.Drawing.Size(162, 31);
             this.CmbSehir.TabIndex = 4;
             // 
             // TxtMeslek
             // 
-            this.TxtMeslek.Location = new System.Drawing.Point(143, 291);
+            this.TxtMeslek.Location = new System.Drawing.Point(143, 294);
             this.TxtMeslek.Name = "TxtMeslek";
             this.TxtMeslek.Size = new System.Drawing.Size(159, 31);
             this.TxtMeslek.TabIndex = 6;
@@ -186,7 +185,7 @@ namespace PersonelKayıtSistemi
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(83, 169);
+            this.label4.Location = new System.Drawing.Point(83, 172);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(54, 23);
             this.label4.TabIndex = 6;
@@ -194,7 +193,7 @@ namespace PersonelKayıtSistemi
             // 
             // TxtSoyad
             // 
-            this.TxtSoyad.Location = new System.Drawing.Point(140, 129);
+            this.TxtSoyad.Location = new System.Drawing.Point(140, 132);
             this.TxtSoyad.Name = "TxtSoyad";
             this.TxtSoyad.Size = new System.Drawing.Size(162, 31);
             this.TxtSoyad.TabIndex = 3;
@@ -202,7 +201,7 @@ namespace PersonelKayıtSistemi
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(74, 132);
+            this.label3.Location = new System.Drawing.Point(74, 135);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 23);
             this.label3.TabIndex = 4;
@@ -210,7 +209,7 @@ namespace PersonelKayıtSistemi
             // 
             // TxtAd
             // 
-            this.TxtAd.Location = new System.Drawing.Point(140, 89);
+            this.TxtAd.Location = new System.Drawing.Point(140, 92);
             this.TxtAd.Name = "TxtAd";
             this.TxtAd.Size = new System.Drawing.Size(162, 31);
             this.TxtAd.TabIndex = 2;
@@ -218,7 +217,7 @@ namespace PersonelKayıtSistemi
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(34, 93);
+            this.label2.Location = new System.Drawing.Point(34, 96);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(106, 23);
             this.label2.TabIndex = 2;
@@ -226,7 +225,7 @@ namespace PersonelKayıtSistemi
             // 
             // Txtid
             // 
-            this.Txtid.Location = new System.Drawing.Point(140, 52);
+            this.Txtid.Location = new System.Drawing.Point(140, 55);
             this.Txtid.Name = "Txtid";
             this.Txtid.Size = new System.Drawing.Size(162, 31);
             this.Txtid.TabIndex = 1;
@@ -234,7 +233,7 @@ namespace PersonelKayıtSistemi
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(34, 55);
+            this.label1.Location = new System.Drawing.Point(34, 58);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(103, 23);
             this.label1.TabIndex = 15;
@@ -242,7 +241,6 @@ namespace PersonelKayıtSistemi
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.BtnGrafikler);
             this.groupBox2.Controls.Add(this.Btnistatistik);
             this.groupBox2.Controls.Add(this.BtnTemizle);
@@ -257,19 +255,10 @@ namespace PersonelKayıtSistemi
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "İşlemler";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(45, 353);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(217, 38);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "Raporlar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // BtnGrafikler
             // 
             this.BtnGrafikler.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnGrafikler.Location = new System.Drawing.Point(45, 307);
+            this.BtnGrafikler.Location = new System.Drawing.Point(47, 323);
             this.BtnGrafikler.Name = "BtnGrafikler";
             this.BtnGrafikler.Size = new System.Drawing.Size(217, 40);
             this.BtnGrafikler.TabIndex = 21;
@@ -280,7 +269,7 @@ namespace PersonelKayıtSistemi
             // Btnistatistik
             // 
             this.Btnistatistik.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Btnistatistik.Location = new System.Drawing.Point(45, 261);
+            this.Btnistatistik.Location = new System.Drawing.Point(47, 277);
             this.Btnistatistik.Name = "Btnistatistik";
             this.Btnistatistik.Size = new System.Drawing.Size(217, 40);
             this.Btnistatistik.TabIndex = 20;
@@ -291,7 +280,7 @@ namespace PersonelKayıtSistemi
             // BtnTemizle
             // 
             this.BtnTemizle.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnTemizle.Location = new System.Drawing.Point(45, 215);
+            this.BtnTemizle.Location = new System.Drawing.Point(47, 231);
             this.BtnTemizle.Name = "BtnTemizle";
             this.BtnTemizle.Size = new System.Drawing.Size(217, 40);
             this.BtnTemizle.TabIndex = 19;
@@ -302,7 +291,7 @@ namespace PersonelKayıtSistemi
             // BtnGuncelle
             // 
             this.BtnGuncelle.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnGuncelle.Location = new System.Drawing.Point(45, 169);
+            this.BtnGuncelle.Location = new System.Drawing.Point(47, 185);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(217, 40);
             this.BtnGuncelle.TabIndex = 18;
@@ -313,7 +302,7 @@ namespace PersonelKayıtSistemi
             // BtnSil
             // 
             this.BtnSil.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnSil.Location = new System.Drawing.Point(45, 122);
+            this.BtnSil.Location = new System.Drawing.Point(47, 138);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(217, 40);
             this.BtnSil.TabIndex = 17;
@@ -324,7 +313,7 @@ namespace PersonelKayıtSistemi
             // BtnKaydet
             // 
             this.BtnKaydet.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnKaydet.Location = new System.Drawing.Point(45, 76);
+            this.BtnKaydet.Location = new System.Drawing.Point(47, 92);
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(217, 40);
             this.BtnKaydet.TabIndex = 16;
@@ -335,7 +324,7 @@ namespace PersonelKayıtSistemi
             // BtnListele
             // 
             this.BtnListele.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnListele.Location = new System.Drawing.Point(45, 30);
+            this.BtnListele.Location = new System.Drawing.Point(47, 46);
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(217, 40);
             this.BtnListele.TabIndex = 15;
@@ -539,7 +528,6 @@ namespace PersonelKayıtSistemi
         private PersonelVeriTabaniDataSet1 personelVeriTabaniDataSet1;
         private System.Windows.Forms.BindingSource tblPersonelBindingSource1;
         private PersonelVeriTabaniDataSet1TableAdapters.Tbl_PersonelTableAdapter tbl_PersonelTableAdapter1;
-        private System.Windows.Forms.Button button1;
     }
 }
 
