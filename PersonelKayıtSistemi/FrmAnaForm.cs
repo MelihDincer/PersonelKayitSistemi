@@ -144,7 +144,8 @@ namespace PersonelKayıtSistemi
 
         private void BtnRapor_Click(object sender, EventArgs e)
         {
-
+            FrmRaporlar frp = new FrmRaporlar();
+            frp.Show();
         }
     }
 }
