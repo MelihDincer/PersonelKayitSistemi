@@ -72,6 +72,7 @@ namespace PersonelKayıtSistemi
             this.tbl_PersonelTableAdapter = new PersonelKayıtSistemi.PersonelVeriTabaniDataSetTableAdapters.Tbl_PersonelTableAdapter();
             this.label8 = new System.Windows.Forms.Label();
             this.tbl_PersonelTableAdapter1 = new PersonelKayıtSistemi.PersonelVeriTabaniDataSet1TableAdapters.Tbl_PersonelTableAdapter();
+            this.BtnRapor = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -241,6 +242,7 @@ namespace PersonelKayıtSistemi
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.BtnRapor);
             this.groupBox2.Controls.Add(this.BtnGrafikler);
             this.groupBox2.Controls.Add(this.Btnistatistik);
             this.groupBox2.Controls.Add(this.BtnTemizle);
@@ -258,7 +260,7 @@ namespace PersonelKayıtSistemi
             // BtnGrafikler
             // 
             this.BtnGrafikler.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnGrafikler.Location = new System.Drawing.Point(47, 323);
+            this.BtnGrafikler.Location = new System.Drawing.Point(50, 307);
             this.BtnGrafikler.Name = "BtnGrafikler";
             this.BtnGrafikler.Size = new System.Drawing.Size(217, 40);
             this.BtnGrafikler.TabIndex = 21;
@@ -269,7 +271,7 @@ namespace PersonelKayıtSistemi
             // Btnistatistik
             // 
             this.Btnistatistik.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Btnistatistik.Location = new System.Drawing.Point(47, 277);
+            this.Btnistatistik.Location = new System.Drawing.Point(50, 261);
             this.Btnistatistik.Name = "Btnistatistik";
             this.Btnistatistik.Size = new System.Drawing.Size(217, 40);
             this.Btnistatistik.TabIndex = 20;
@@ -280,7 +282,7 @@ namespace PersonelKayıtSistemi
             // BtnTemizle
             // 
             this.BtnTemizle.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnTemizle.Location = new System.Drawing.Point(47, 231);
+            this.BtnTemizle.Location = new System.Drawing.Point(50, 215);
             this.BtnTemizle.Name = "BtnTemizle";
             this.BtnTemizle.Size = new System.Drawing.Size(217, 40);
             this.BtnTemizle.TabIndex = 19;
@@ -291,7 +293,7 @@ namespace PersonelKayıtSistemi
             // BtnGuncelle
             // 
             this.BtnGuncelle.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnGuncelle.Location = new System.Drawing.Point(47, 185);
+            this.BtnGuncelle.Location = new System.Drawing.Point(50, 169);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(217, 40);
             this.BtnGuncelle.TabIndex = 18;
@@ -302,7 +304,7 @@ namespace PersonelKayıtSistemi
             // BtnSil
             // 
             this.BtnSil.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnSil.Location = new System.Drawing.Point(47, 138);
+            this.BtnSil.Location = new System.Drawing.Point(50, 122);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(217, 40);
             this.BtnSil.TabIndex = 17;
@@ -313,7 +315,7 @@ namespace PersonelKayıtSistemi
             // BtnKaydet
             // 
             this.BtnKaydet.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnKaydet.Location = new System.Drawing.Point(47, 92);
+            this.BtnKaydet.Location = new System.Drawing.Point(50, 76);
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(217, 40);
             this.BtnKaydet.TabIndex = 16;
@@ -324,7 +326,7 @@ namespace PersonelKayıtSistemi
             // BtnListele
             // 
             this.BtnListele.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnListele.Location = new System.Drawing.Point(47, 46);
+            this.BtnListele.Location = new System.Drawing.Point(50, 30);
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(217, 40);
             this.BtnListele.TabIndex = 15;
@@ -454,6 +456,17 @@ namespace PersonelKayıtSistemi
             // 
             this.tbl_PersonelTableAdapter1.ClearBeforeFill = true;
             // 
+            // BtnRapor
+            // 
+            this.BtnRapor.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnRapor.Location = new System.Drawing.Point(50, 353);
+            this.BtnRapor.Name = "BtnRapor";
+            this.BtnRapor.Size = new System.Drawing.Size(217, 40);
+            this.BtnRapor.TabIndex = 22;
+            this.BtnRapor.Text = "Raporlar";
+            this.BtnRapor.UseVisualStyleBackColor = true;
+            this.BtnRapor.Click += new System.EventHandler(this.BtnRapor_Click);
+            // 
             // FrmAnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
@@ -528,6 +541,7 @@ namespace PersonelKayıtSistemi
         private PersonelVeriTabaniDataSet1 personelVeriTabaniDataSet1;
         private System.Windows.Forms.BindingSource tblPersonelBindingSource1;
         private PersonelVeriTabaniDataSet1TableAdapters.Tbl_PersonelTableAdapter tbl_PersonelTableAdapter1;
+        private System.Windows.Forms.Button BtnRapor;
     }
 }
 

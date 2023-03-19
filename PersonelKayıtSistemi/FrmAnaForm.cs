@@ -141,5 +141,10 @@ namespace PersonelKayıtSistemi
             FrmGrafikler frg = new FrmGrafikler();
             frg.Show();
         }
+
+        private void BtnRapor_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
